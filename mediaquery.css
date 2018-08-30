@@ -1,0 +1,44 @@
+@media screen and (max-width: 40em) {
+	h1{
+		font-size: 1.4em;
+	}
+	#header {
+		width: 100%;
+		flex-direction: column;
+		padding: 1em 0;
+		justify-content: space-around;
+		line-height: 1.76em;
+	}
+	#nav-bar{
+		padding: 0;
+		align-self: center;
+	}
+	#header-img{
+		display: block;
+		margin: 2% auto;
+	}
+	#hero .container, #features .container{
+		flex-direction: column;
+		margin: 10% 6%;
+	}
+	#video{
+		left: 0;
+	}
+	.box{
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 19em) {
+	body{
+		padding: 40% 0 0 0;
+	}
+	#nav-bar{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+	#video{
+		left: 0;
+	}
+}
